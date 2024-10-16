@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import {container, heading, navLinks, navlinkItem, navLinkText} from "./layout.module.css"
+import {container, navLinks, navlinkItem} from "./layout.module.css"
 
 export default function Layout ({children, titulo}){
     return(
